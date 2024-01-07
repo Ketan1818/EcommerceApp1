@@ -1,0 +1,96 @@
+.header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: #ffdda9;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+.search{
+    width: 180px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.search:hover{
+    width: 250px;
+    border: orange;
+    border: none;
+}
+.cart{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+   margin-left: 300px;
+   margin-right: 300px;
+   
+}
+.items{
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline; 
+    position: relative;
+
+}
+.items:hover{
+    color: rgb(226, 163, 45);
+    font-size: 20px;
+}
+.icon {
+    display: inline-block; /* or use any desired display property */
+    width: 20px; /* Set the width and height of your icon */
+    height: 20px;
+     text-align: center;
+     align-items: center;
+  
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  .icon:hover {
+    transform: rotate(180deg); /* Rotate the icon 180 degrees on hover */
+  }
+  .arrow-i{
+    height: 20px;
+  }
+  .spam{
+    position: relative;
+     
+  }
+  
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff; /* Background color for the dropdown */
+    border: 1px solid #ccc; /* Border style for the dropdown */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  }
+  
+  .dropdown-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Border between dropdown items */
+  }
+  
+   .dropdown-list li:last-child {
+    border-bottom: none;
+  } 

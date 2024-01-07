@@ -1,0 +1,40 @@
+
+.slider1{
+    display: flex;
+   
+}
+.nav1-left{
+ 
+    margin-top: 70px;
+    margin-left: 60px;
+   
+}
+.nav1-right{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+.h1{
+    font-size: 70px;
+}
+.btn{
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    cursor: pointer;
+}
+.btn:hover{
+    width: 160px;
+    height: 40px;
+    font-weight: 300;
+}
+.photos{
+    height: 400px;
+}
+  
+ 

@@ -1,0 +1,140 @@
+.main{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   line-height: 0px;
+   margin-top: 40px;
+   text-align: center;
+}
+.h3{
+    color: orange;
+}
+.main2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 0;
+    margin-top: 40px;
+}
+.imgs{
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.img{
+   height: 200px;
+   width: 260px;
+}
+
+
+.main-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+   
+}
+.btn-c{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.main3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 500px;
+}
+.divs{
+    height: 400px;
+   line-height: 15px;
+    width: 400px;
+   border-radius: 5px;
+    
+}
+.divs:hover{
+    background-color: #f3e7e7;
+}
+
+.s-img{
+    height: 250px;
+}
+.main4{
+    display: flex;
+     
+}
+.main4-left{
+    height: 400px;
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main4-right{
+    height: 400px;
+  display: grid;
+    width: 50%;
+}
+.sec1{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+.icons{
+    background-color: rgb(248, 228, 231);
+    border-radius: 50px;
+    padding: 13px;
+    margin-right: 20px;
+}
+.icons1{
+    background-color: rgb(218, 225, 231);
+    border-radius: 50px;
+    padding: 13px;
+    margin-right: 20px;
+    
+}
+.icon-img{
+    height: 20px;
+    width: 20px;
+}
+.main5{
+    display: grid;
+    width: 100%;
+    background-color: orange;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.input-box{
+    width: 450px;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    border: none;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.ff{
+    columns: #fff;
+}
